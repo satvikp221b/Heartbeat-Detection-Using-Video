@@ -2,7 +2,7 @@
 
 ## Authors:
 - Satvik Pandey
-- Mahesh Kodavati
+- Mahendra Kodavati
 
 ## Project Description
 This project aims to detect heart rate from video using computer vision and signal processing techniques, specifically focusing on facial regions. The project leverages Photoplethysmography (PPG) to measure subtle changes in skin color related to blood volume changes caused by the cardiac cycle. It incorporates a combination of traditional methods such as Haar Cascade, GrabCut, and more recent advancements like Eulerian Video Magnification (EVM) and MTCNN for face detection. The project was initially developed during our final semesters in college, but recently, I found the motivation to revisit it and implement new techniques such as Auto Correlation, MTCNN for face detection, and averaging frames to calculate heart rate more accurately.
@@ -51,6 +51,8 @@ The results of the project demonstrate that heart rate can be detected with an e
 | Processed Video | Heart Rate Overlay |
 | --------------- | ------------------ |
 | ![Processed Video](results/output_magnified_roi_noeyes-gif.gif) | ![Heart Rate](results/output_with_hr-gif.gif) |
+
+In this case the heartrate was having an error of around 6-8 bpm as my heartbeat during the time of this video was close to 70-72 according to my apple watch. Although we have also calculate the heartrate using IR pulse sensor, I currently don't have access to it as my professor was kind enough to lent it to us. :) 
 
 ## Conclusion
 This project demonstrates the feasibility of non-invasive heart rate detection using only video input. By leveraging video magnification and advanced signal processing techniques, heart rate detection can be achieved with reasonable accuracy under ideal conditions. Under perfect conditions—with a single source of light, minimal movement, and the best ROI being the forehead region (provided no hair covers it)—it is possible to achieve an error margin of ±5 bpm.
