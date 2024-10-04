@@ -57,7 +57,7 @@ This project demonstrates the feasibility of non-invasive heart rate detection u
 
 The implementation of Auto Correlation, MTCNN for face detection, and using a 30-frame average for heart rate stability helped me improved performance in face detection and signal extraction especially the double peaking and sudden spike with even a little light variation. However, challenges remain, particularly with variations in lighting and camera quality.
 
-The inspiration for this project came from Isabel Bush's paper [Measuring Heart Rate from Video](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://web.stanford.edu/class/cs231a/prev_projects_2016/finalReport.pdf) from Stanford University, which laid the foundation for the method we developed.
+The inspiration for this project came from Isabel Bush's paper [Measuring Heart Rate from Video](https://web.stanford.edu/class/cs231a/prev_projects_2016/finalReport.pdf) from Stanford University, which laid the foundation for the method we developed.
 
 ## Further Improvements
 1. **Enhancing Robustness:** The current system struggles with dynamic lighting conditions and varying camera qualities. Improving robustness against these environmental factors would make the system more reliable.
