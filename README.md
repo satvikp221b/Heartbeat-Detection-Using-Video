@@ -34,7 +34,7 @@ This project aims to detect heart rate from video using computer vision and sign
 - `record_video.py`: A script to record video inputs for the heart rate detection system.
 - `results/`: Stores the magnified videos and final videos with overlaid heart rate.
 - `videos/`: Contains input videos used for testing and analysis.
-- 'measureHR/':Contains the Arduino code used for Pulse IR Sensor
+- `measure/`:Contains the Arduino code used for Pulse IR Sensor
 - `README.md`: This documentation.
   
 ## Requirements
