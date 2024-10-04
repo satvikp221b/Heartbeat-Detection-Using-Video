@@ -50,7 +50,7 @@ The results of the project demonstrate that heart rate can be detected with an e
 
 | Processed Video | Heart Rate Overlay |
 | --------------- | ------------------ |
-| ![Processed Video](results/magnified_video.png) | ![Heart Rate](results/heart_rate_overlay.png) |
+| ![Processed Video](results/output_magnified_roi_noeyes-gif.gif) | ![Heart Rate](results/output_with_hr-gif.gif) |
 
 ## Conclusion
 This project demonstrates the feasibility of non-invasive heart rate detection using only video input. By leveraging video magnification and advanced signal processing techniques, heart rate detection can be achieved with reasonable accuracy under ideal conditions. Under perfect conditions—with a single source of light, minimal movement, and the best ROI being the forehead region (provided no hair covers it)—it is possible to achieve an error margin of ±5 bpm.
